@@ -1,4 +1,13 @@
 body {
-   font: calibri;
+   font-family: sans-serif;
+}
 
+h1 {
+   font-size: 36px;
+   font-weight: bolder;
+}
+
+h2 {
+   font-size: 24px;
+   font-style: italic;
 }
