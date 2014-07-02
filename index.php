@@ -1,0 +1,91 @@
+<html>
+   <head>
+      <title>Ethan Wortzman P1</title>
+      <link rel="stylesheet" href="stylesheets/default.css" />
+
+      <script type="text/javascript" >
+         var theme=0;
+         function buttonPress() {
+            theme = (theme+1)%4;
+
+            switch(theme){
+               case 0:
+                  document.getElementById("theme").value="Light";
+                  document.body.style.backgroundColor="#ffffff";
+                  document.body.style.color="#000000";
+                  break;
+               case 1:
+                  document.getElementById("theme").value="Dark";
+                  document.body.style.backgroundColor="#000000";
+                  document.body.style.color="#ffffff";
+                  break;
+               case 2:
+                  document.getElementById("theme").value="Cocoa";
+                  document.body.style.backgroundColor="#643b0f";
+                  document.body.style.color="#ffffff";
+                  break;
+               case 3:
+                  document.getElementById("theme").value="Sepia";
+                  document.body.style.backgroundColor="#efe0b9";
+                  document.body.style.color="#643b0f";
+            }
+         }
+      </script>
+   </head>
+
+   <body>
+      <div id="debug"></div>
+
+<!--
+      The change theme feature does not function as intended.  It has been removed for the project submission.
+
+      Change Theme: <input class="button" type="button" id="theme" onClick="buttonPress()" value="Light" />
+-->
+
+      <h1>Ethan A.B. Wortzman</h1>
+      <img src="images/Sox Game.jpg" />
+
+      <br />
+
+      <h2>In 2+ sentences describe who you are and what you do.</h2>
+      <p>I graduated from the <a href="http://www.umass.edu/">University of
+      Massachusetts</a> in 2011 and began pursuing a career in software
+      development.  For 2 years I worked in Virginia for <a
+      href="http://www.mitre.org/">a government contractor<a> before leaving to
+      pursue a position more in line with my goals.</p>
+
+      <h2>Why are you taking this course?</h2>
+      <p>I am taking this course because I have had only a short foray into web
+      development.  I want to continue to add new skills to my repertoire and
+      web development is something I have enjoyed immensely in the few chances I
+      have had to do it.</p>
+
+      <h2>What previous experience do you have with HTML/CSS?</h2>
+      <p>I have done a small amount of work in HTML and CSS, but all my previous
+      work has been very basic.  I have written some basic websites, and have
+      some academic experience with the Python-based web framework <a
+      href="https://www.djangoproject.com/">Django.</a></p>
+
+      <h2>What previous experience do you have with programming?</h2>
+      <p>I have a degree in Computer Science with a focus in Software
+      Engineering from the University of Massachusetts Amherst. I have extensive
+      programming experience in object-oriented languages. My work has primarily
+      been in Java and Python, though I have worked in C/C++, C#, and PHP.</p>
+
+      <h2>Have you worked with PHP before? If so, to what extent?</h2>
+      <p>I taught myself PHP in 2010 while working an internship for <a
+      href="http://www.perfectstormmedia.com/">an online marketing company</a>
+      in London. This internship was my very first experience with any kind of
+      web development (this is also where I learned HTML and JavaScript).  Since
+      that 4 month internship, I've used PHP very little</p>
+
+      <h2>Are you working on a Mac, PC, or some other platform?</h2>
+      <p>My preferred platform for development is Linux.  For this course, I
+      will be working in <a href="http://www.linuxmint.com/">Linux Mint 16.</a>
+      </p>
+
+      <h2>Anything else we should know?</h2>
+      <p>Hobbies of mine include bicycling, rock climbing, playing trombone, and
+      video games.</p>
+   </body>
+</html>
